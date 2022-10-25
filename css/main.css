@@ -649,6 +649,10 @@ video {
   display: none;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-0\.5 {
   height: 0.125rem;
 }
@@ -659,6 +663,14 @@ video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .w-40 {
