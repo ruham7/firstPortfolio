@@ -68,11 +68,25 @@
 <section id="testimonials">
     <!-- Container to heading and testm blocks -->
     <div class="max-w-6xl px-5 mx-auto my-16 text-center">
-      <!-- Heading -->
-      <h2 class="text-6xl  text-MyGold font-JosefinSlab text-center">
-        Welcome!
+      <!-- Heading | animation-->
+      <h2 class="ml11 text-6xl text-MyGold font-JosefinSlab text-center">
+        <span class="text-wrapper">
+          <span class="line line1 "></span>
+          <span class="letters">Welcome</span>
+        </span>
       </h2>
-      
+
+
+
+
+
+
+      <!-- <h2 class="text-6xl text-MyGold font-JosefinSlab text-center welcome relative">
+        <span><span class="line line1"></span>
+        Welcome!
+        </span>
+      </h2>
+       -->
       <!-- <div class=" mt-24 md:flex-row items-center"> -->
          
          <!-- profile card -->
@@ -134,30 +148,43 @@
             </div>
           </div>
         </div>
-<div class="mt-16 flex flex-col items-center p-4 space-y-6 rounded-lg bg-MyLightGold max-w-6xl"
->
+        <!-- design and development stack -->
+<div class="mt-16 md:flex-row flex flex-col items-center py-4 space-y-6 rounded-lg max-w-6xl md:space-y-0 md:space-x-4">
+   <!--Tech stack  -->
+<div class="bg-MyAlmostWhite relative rounded-md min-w-full flex flex-col space-y-6 md:min-w-fit md:w-1/2">
+   
         <h2 class="text-4xl font-JosefinSlab my-10 text-center">
           Tech stack
         </h2>
-        <div class="flex-col flex px-4 md:flex-row space-y-6 md:space-y-0 md:space-x-4">
-<img src="img/html-5.png" alt="" class=" h-20 rounded">
-<img src="img/css-3.png" alt="" class=" h-20 rounded">
-<img src="img/js.png" alt="" class=" h-20 rounded">
-<img src="img/react.png" alt="" class=" h-20 rounded">
-<img src="img/node-js.png" alt="" class=" h-20 rounded">
- </div>       
+        <div class="flex-row relative flex p-4 space-y-0 justify-between">
+          
+<img src="img/html-5.png" alt="" class="flex h-20 rounded ">
+<img src="img/css-3.png" alt="" class=" flex h-20 rounded ">
+<img src="img/js.png" alt="" class=" h-20 flex rounded ">
+<img src="img/react.png" alt="" class=" h-20 flex rounded ">
+<img src="img/node-js.png" alt="" class=" h-20 flex rounded">
+ </div>     
+ </div>
+ <!-- design tools -->
+ <div class="bg-MyAlmostWhite relative flex flex-col min-w-full space-y-6 md:w-1/2 md:min-w-fit rounded-md">
+ <h2 class="text-4xl font-JosefinSlab my-10 text-center">
+  Design tools
+</h2>
+<div class="flex-row space-y-0 flex p-4 justify-center ">
+  
+<img src="img/figma.png" alt="" class=" h-20 flex rounded ">
+<img src="img/xd.png" alt="" class=" h-20 flex rounded ">
+
+</div>
+</div>     
 </div> 
 
-
-
-      
-     
 
     <!-- CTA Section -->
     <section id="cta" class="bg-MyGold">
       <!-- Flex Container -->
       <div
-        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+        class="container flex flex-col items-center justify-center px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
       >
         <!-- Heading -->
         <h2
@@ -246,6 +273,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
